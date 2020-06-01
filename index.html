@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
 
-<title>Kuan Liu</title>
+<title>My COVID-19 Research HUB</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -20,24 +20,7 @@
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 
-<style type="text/css">code{white-space: pre;}</style>
-<style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
-<script type="text/javascript">
-if (window.hljs) {
-  hljs.configure({languages: []});
-  hljs.initHighlightingOnLoad();
-  if (document.readyState && document.readyState === "complete") {
-    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
-  }
-}
-</script>
 
 
 
@@ -83,7 +66,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -232,6 +214,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -243,18 +226,6 @@ $(document).ready(function () {
   display: none;
 }
 </style>
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
 
 <!-- code folding -->
 
@@ -287,7 +258,10 @@ $(document).ready(function () {
   <a href="index.html">Home</a>
 </li>
 <li>
-  <a href="projects.html">Projects</a>
+  <a href="prov.html">Provincial level R0</a>
+</li>
+<li>
+  <a href="city.html">City level R0</a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -301,29 +275,84 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Kuan Liu</h1>
+<h1 class="title toc-ignore">My COVID-19 Research HUB</h1>
 
 </div>
 
-
-<p>Hello, World!</p>
-<div id="r-markdown" class="section level2">
-<h2>R Markdown</h2>
-<p>This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <a href="http://rmarkdown.rstudio.com" class="uri">http://rmarkdown.rstudio.com</a>.</p>
-<p>When you click the <strong>Knit</strong> button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:</p>
-<pre class="r"><code>summary(cars)</code></pre>
-<pre><code>##      speed           dist       
-##  Min.   : 4.0   Min.   :  2.00  
-##  1st Qu.:12.0   1st Qu.: 26.00  
-##  Median :15.0   Median : 36.00  
-##  Mean   :15.4   Mean   : 42.98  
-##  3rd Qu.:19.0   3rd Qu.: 56.00  
-##  Max.   :25.0   Max.   :120.00</code></pre>
+<div id="TOC">
+<ul>
+<li><a href="#from-the-author">From the author</a></li>
+<li><a href="#current-projects">Current Projects</a><ul>
+<li><a href="#covid-19-testing-trend-in-canada-link">1. COVID-19 Testing Trend in Canada <a href="https://rpubs.com/kuanstat/testing_can">(link)</a></a></li>
+<li><a href="#covid-19-canada-dashboard-link">2. COVID-19 Canada Dashboard <a href="https://kuan-liu.shinyapps.io/canada_dash/">(link)</a></a></li>
+<li><a href="#estimation-of-regional-temporal-reproduction-number-r0-of-covid-19">3. Estimation of Regional Temporal Reproduction Number R0 of COVID-19</a></li>
+</ul></li>
+<li><a href="#future-projects">Future Projects</a></li>
+</ul>
 </div>
-<div id="including-plots" class="section level2">
-<h2>Including Plots</h2>
-<p>You can also embed plots, for example:</p>
-<p>Note that the <code>echo = FALSE</code> parameter was added to the code chunk to prevent printing of the R code that generated the plot.</p>
+
+<p><strong>Date Created:</strong> June 01, 2020</p>
+<p><strong>Date Updated:</strong> Jun 01, 2020</p>
+<p><br></p>
+<div id="from-the-author" class="section level1">
+<h1>From the author</h1>
+<p><strong>Thank you for your interest in my COVID-19 data visualization and data analysis work! I created this website to provide a one-stop shop for readers to view all my current and future COVID related projects.</strong></p>
+<p><strong>I don’t intent to style or format this webpage (please excuse the plainness). Feel free to reach me at <a href="mailto:kuan.liu@mail.utoronto.ca">kuan.liu@mail.utoronto.ca</a>. You can also find me on <a href="https://twitter.com/KuanLiu2">Twitter</a>. For those of you who are interested to learn more about me, I direct you to visit my other website <a href="https://www.kuan-liu.com/" class="uri">https://www.kuan-liu.com/</a>.</strong></p>
+<p><br></p>
+</div>
+<div id="current-projects" class="section level1">
+<h1>Current Projects</h1>
+<div id="covid-19-testing-trend-in-canada-link" class="section level2">
+<h2>1. COVID-19 Testing Trend in Canada <a href="https://rpubs.com/kuanstat/testing_can">(link)</a></h2>
+<p>This is a joint work with <a href="https://www.linkedin.com/in/alexandra-bushby-571b65168/">Alexandra Bushby</a> and <a href="https://www.linkedin.com/in/thaison-tang/">Thai-son Tang</a>. Our project website is hosted at <a href="https://rpubs.com/kuanstat/testing_can" class="uri">https://rpubs.com/kuanstat/testing_can</a>. We provide descriptive data visualization on COVID-19 testing data in Canada. I started this project back in late March.</p>
+<p>We are planning to move the website content to a new shiny app in June using primarily the official federal and provincial testing data. The current analysis uses primary the testing data provided by <a href="https://github.com/ishaberry/Covid19Canada">the COVID-19 Canada Open Data Working Group</a>.</p>
+<p>Highlight of the project visualization content:</p>
+<ul>
+<li>Total number of tests conducted</li>
+<li>Total number of tests conducted per 100,000 population</li>
+<li>Comparison of total tests per 100,000 population to the total number of cases per 100,000</li>
+<li>Total number of daily new tests conducted *Proportion of patients tested positive out of the number of tests conducted</li>
+</ul>
+</div>
+<div id="covid-19-canada-dashboard-link" class="section level2">
+<h2>2. COVID-19 Canada Dashboard <a href="https://kuan-liu.shinyapps.io/canada_dash/">(link)</a></h2>
+<p>This is a joint work with <a href="https://twitter.com/rose_carrot">Rose Garrett</a>. Our interactive dashboard is hosted at <a href="https://kuan-liu.shinyapps.io/canada_dash/" class="uri">https://kuan-liu.shinyapps.io/canada_dash/</a>. We provide descriptive data visualization on Canada COVID-19 confirmed, active, recovered cases, and deaths data provided by <a href="https://github.com/ishaberry/Covid19Canada">the COVID-19 Canada Open Data Working Group</a>. I coded the original version using Rami Krispin’s Covid19 Italy <a href="https://github.com/RamiKrispin/italy_dash">dashboard</a> as template back in early April.</p>
+<p>Highlight of the dashboard content:</p>
+<ul>
+<li>A summary page on nationwide data
+<ul>
+<li>Overall distribution of cases, daily new Confirmed, fatal and recovered cases</li>
+<li>Daily percentage increase on confirmed and fatal cases</li>
+<li>Case trajectory with comparison to other countries</li>
+<li>Confirmed and fatal cases distribution by province and territory</li>
+</ul></li>
+<li>A case map page (using Leaflet)</li>
+<li>A summary page for Toronto, Ontario and Quebect</li>
+<li>A page with Canada COVID-19 data table</li>
+</ul>
+<p>Sample plotly figures from our dashboard</p>
+<ul>
+<li><ol style="list-style-type: decimal">
+<li>Confirmed cases by province and territory</li>
+</ol></li>
+<li><ol start="2" style="list-style-type: decimal">
+<li>Daily new Confirmed, fatal and recovered cases</li>
+</ol></li>
+</ul>
+<p><img src="docs/figures/casebyprov_can.png" alt="Confirmed cases by province and territory" /> <img src="docs/figures/dailynew_can.png" alt="Daily new Confirmed, fatal and recovered cases" /></p>
+<p><br></p>
+</div>
+<div id="estimation-of-regional-temporal-reproduction-number-r0-of-covid-19" class="section level2">
+<h2>3. Estimation of Regional Temporal Reproduction Number R0 of COVID-19</h2>
+<p>This is work is produced by replicating the subnational analysis provided at <a href="https://epiforecasts.io/covid/" class="uri">https://epiforecasts.io/covid/</a> by a team of researcher lead by <a href="https://www.lshtm.ac.uk/aboutus/people/funk.sebastian">Prof. Sebastian Funk</a> the at Centre for the Mathematical Modelling of Infectious Disases, London School of Hygiene and Tropical Medicine.</p>
+<p>Two R packages developed by the same team were used, <a href="https://github.com/epiforecasts/EpiNow">the EpiNow R package</a> and <a href="https://github.com/epiforecasts/EpiSoon">the EpiSoon R package</a>. In addition, the forecastHybrid R package developed by <a href="https://github.com/ellisp/forecastHybrid">David Shaub and Peter Ellis</a> is used to produce a 14-day forecast on R0. Canada data is extracted again from the open-access data provided by <a href="https://github.com/ishaberry/Covid19Canada">the COVID-19 Canada Open Data Working Group</a>.</p>
+<p>Estimation results are shared on this website on subtabs.</p>
+<p><br></p>
+</div>
+</div>
+<div id="future-projects" class="section level1">
+<h1>Future Projects</h1>
+<p>I submitted a team project proposal to the University of Toronto COVID-19 Student Engagement Award mid May. Our project is titled, “Using Data Visualization and Crowdsourcing Survey to study COVID-19 Testing Capacity, Protocol, and Barriers in Canada”. If funded, in addition to creating a testing data dashboard, we will conduct a crowdsourcing survey study to understand public preception on COVID-19 testing. In particular, we are interested to learn concerns people might have when requesting for a test, completing a test and waiting for test results. Stay tuned!</p>
 </div>
 
 
@@ -343,6 +372,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
