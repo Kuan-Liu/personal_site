@@ -34,6 +34,12 @@ MMath in Statistics (Biostatistics) | September 2011 - September 2012
 
 BSc Honour in Statistics | September 2007 - June 2011
 
+---
+
+### Fun data visualization
+
+![3D Christmas Tree](https://raw.githubusercontent.com/Kuan-Liu/ChristmasTree3D/main/3dAnimatedplot_xmastree.gif)
+
 
 ---
 
