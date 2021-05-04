@@ -16,7 +16,7 @@ output:
  
 ## Bio
 
-Kuan is a doctoral candidate in Biostatistics with Professor and Senior Scientist, Dr. Eleanor Pullenayegum in the Department of Child Health Evaluative Sciences at the Hospital for Sick Children and the Division of Biostatistics at Dalla Lana School of Public Health, University of Toronto. Her PhD research focuses on developing novel Bayesian estimation methods that permit causal inference in longitudinal observational studies using administrative databases. Kuan is a CIHR doctoral award recipient.
+Kuan is a doctoral candidate in biostatistics with Professor and Senior Scientist, Dr. Eleanor Pullenayegum in the Department of Child Health Evaluative Sciences at the Hospital for Sick Children and the Division of Biostatistics at Dalla Lana School of Public Health, University of Toronto. Her PhD research focuses on developing novel Bayesian estimation methods that permit causal inference in longitudinal observational studies using administrative databases. Kuan is a CIHR doctoral award recipient.
 
 ## Education
 
