@@ -35,6 +35,7 @@ MMath in Statistics (Biostatistics) | September 2011 - September 2012
 BSc Honour in Statistics | September 2007 - June 2011
 
 
+---
 
 
 Website template [postcards](https://github.com/seankross/postcards)
