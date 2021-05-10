@@ -11,7 +11,8 @@ links:
   - label: The STRIVE Lab
     url: "https://lab.research.sickkids.ca/pullenayegum/"
 output:
-  postcards::trestles
+  html_document:
+    postcards::trestles
 ---
  
 ## Bio
@@ -34,9 +35,13 @@ BSc Honour in Statistics | September 2007 - June 2011
 
 ---
 
-### Fun data visualization
+### <span style="color:purple"> Fun visualization </span>
 
 ![3D Christmas Tree](https://raw.githubusercontent.com/Kuan-Liu/ChristmasTree3D/main/3dAnimatedplot_xmastree.gif)
+
+![Tulips](docs/drawing/IMG_3281.jpg){width=50%}
+
+![Flower Vase](docs/drawing/IMG_3284.jpg){width=50%}
 
 
 ---
