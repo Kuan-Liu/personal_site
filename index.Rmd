@@ -15,7 +15,7 @@ output:
  
 ## <span style="color:purple"> About Me </span>
 
-<p></p>
+
 
 I am an assistant professor in the Institute of Health Policy, Management and Evaluation ([IHPME](https://ihpme.utoronto.ca/)) at the University of Toronto. I completed my PhD in Biostatistics under Professor and Senior Scientist, [Dr. Eleanor Pullenayegum](https://lab.research.sickkids.ca/pullenayegum/) in the Department of Child Health Evaluative Sciences at the Hospital for Sick Children and the Division of Biostatistics at Dalla Lana School of Public Health, University of Toronto.
 
@@ -23,11 +23,11 @@ Broadly speaking, my research interests centre on the application of statistical
 
 Besides academic work and creating fun data visualizations in R, I love watercolour painting, taking contemporary dance classes in Toronto, and playing piano as an adult beginner.
 
-<p></p>
+<br />
 
 ## <span style="color:purple"> Teaching </span>
 
-<p></p>
+
 
 My tentative teaching assignments for the upcoming 2021-2022 academic year at IHPME are
 
@@ -35,11 +35,10 @@ My tentative teaching assignments for the upcoming 2021-2022 academic year at IH
 - HAD5313H Advanced Design and Analysis Issues in Clinical Trials | Co-instructor | Winter 2022
 - Reading course on Introduction to R for Health Sciences Research | Spring 2022
 
-<p></p>
+<br />
 
 ## <span style="color:purple"> Education </span>
 
-<p></p>
 
 **University of Toronto** | Toronto, ON
 
@@ -53,9 +52,9 @@ MMath in Statistics (Biostatistics) | September 2011 - September 2012
 
 BSc Honour in Statistics | September 2007 - June 2011
 
-<p></p>
+<br />
 
-## <span style="color:purple"> [Contact Me](mailto:kuan.liu@mail.utoronto.ca?subject=[Hello Kuan]) </span>
+## `r emo::ji("email")` [Contact Me](mailto:kuan.liu@mail.utoronto.ca?subject=[Hello Kuan])  
 
 
 ---
