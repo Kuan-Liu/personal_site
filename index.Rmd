@@ -2,24 +2,33 @@
 title: "Kuan Liu"
 image: "thumbnail_kuan.jpg"
 links:
-  - label: Twitter
-    url: "https://twitter.com/KuanLiu2/"
   - label: Google Scholar
     url: "https://scholar.google.com/citations?user=m5NSti4AAAAJ&hl=en"
   - label: GitHub
     url: "https://github.com/Kuan-Liu"
-  - label: The STRIVE Lab
-    url: "https://lab.research.sickkids.ca/pullenayegum/"
+  - label: Twitter
+    url: "https://twitter.com/KuanLiu2/"
 output:
   html_document:
     postcards::trestles
 ---
  
-## Bio
+## <span style="color:purple"> About Me </span>
 
-Kuan is a doctoral candidate in Biostatistics with Professor and Senior Scientist, Dr. Eleanor Pullenayegum in the Department of Child Health Evaluative Sciences at the Hospital for Sick Children and the Division of Biostatistics at Dalla Lana School of Public Health, University of Toronto. Her PhD research focuses on developing novel Bayesian estimation methods that permit causal inference in longitudinal observational studies using administrative databases. Kuan is a CIHR doctoral award recipient.
+<p>&nbsp;</p>
 
-## Education
+I am an assistant professor in the Institute of Health Policy, Management and Evaluation ([IHPME](https://ihpme.utoronto.ca/)) at the University of Toronto. I completed my PhD in Biostatistics under Professor and Senior Scientist, [Dr. Eleanor Pullenayegum](https://lab.research.sickkids.ca/pullenayegum/) in the Department of Child Health Evaluative Sciences at the Hospital for Sick Children and the Division of Biostatistics at Dalla Lana School of Public Health, University of Toronto.
+
+Broadly speaking, my research interests centre on the application of statistical methods to clinical and public health evidence-based research and the development of novel Bayesian estimation methods for handling statistical inference, in particular causal inference, with complex longitudinal data.
+
+
+Besides academic work and creating fun data visualizations in R, I love watercolour painting, taking contemporary dance classes in Toronto, and playing piano as an adult beginner.
+
+<p>&nbsp;</p>
+
+## <span style="color:purple"> Education </span>
+
+<p>&nbsp;</p>
 
 **University of Toronto** | Toronto, ON
 
@@ -35,9 +44,9 @@ BSc Honour in Statistics | September 2007 - June 2011
 
 ---
 
-### <span style="color:purple"> Fun visualization </span>
+<!-- ### <span style="color:purple"> Fun visualization </span> -->
 
-![3D Christmas Tree](https://raw.githubusercontent.com/Kuan-Liu/ChristmasTree3D/main/3dAnimatedplot_xmastree.gif)
+![](https://raw.githubusercontent.com/Kuan-Liu/ChristmasTree3D/main/3dAnimatedplot_xmastree.gif)
 
 ![Tulips](docs/drawing/IMG_3281.jpg){width=50%}
 
@@ -49,4 +58,4 @@ BSc Honour in Statistics | September 2007 - June 2011
 ---
 
 
-Website template [postcards](https://github.com/seankross/postcards)
+<!-- Website template [postcards](https://github.com/seankross/postcards) -->
