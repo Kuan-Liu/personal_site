@@ -8,6 +8,8 @@ links:
     url: "https://github.com/Kuan-Liu"
   - label: Twitter
     url: "https://twitter.com/KuanLiu2/"
+  - label: Contact
+    url: mailto:kuan.liu@mail.utoronto.ca?subject=[HelloKuan]
 output:
   html_document:
     postcards::trestles
@@ -54,7 +56,7 @@ BSc Honour in Statistics | September 2007 - June 2011
 
 <br />
 
-## `r emo::ji("email")` [Contact Me](mailto:kuan.liu@mail.utoronto.ca?subject=[Hello Kuan])  
+<!-- ## `r emo::ji("email")` [Contact Me](mailto:kuan.liu@mail.utoronto.ca?subject=[Hello Kuan])   -->
 
 
 ---
