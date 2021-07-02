@@ -32,7 +32,7 @@ Besides academic work and creating fun data visualizations in R, I love watercol
 My tentative teaching assignments for the upcoming 2021-2022 academic year at IHPME are
 
 - HAD5314H Applied Bayesian Methods in Clinical Epidemiology and Health Care Research | Winter 2022
-- HAD5313 Advanced Design and Analysis Issues in Clinical Trials | Co-instructor | Winter 2022
+- HAD5313H Advanced Design and Analysis Issues in Clinical Trials | Co-instructor | Winter 2022
 - Reading course on Introduction to R for Health Sciences Research | Spring 2022
 
 <p></p>
